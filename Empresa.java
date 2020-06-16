@@ -43,11 +43,6 @@ public class Empresa {
         String repr = String.format("|%8s |%15s |%15s |%13s |%14s |%12s |%16s |%16s |\n", "ID", "Nome", "Departamento", "Salário", "Adi/Vale", "Previdência", "Adi whiskey", "Adi helico");
         for(int i = 0; i < this.numEmpregados; ++i) {
             repr += String.format("%s\n",this.empregados[i].toString());
-            // if(this.empregados[i] instanceof Estagiario) {
-            //     repr += String.format("%7s |%7s |%7", "NAN", "NAN", ");
-            // } else if (this.empregados[i] instanceof Funcionario) {
-            //     repr += String.format("%s\n",this.empregados[i].toString());
-            // }
         }
         return repr;
     }

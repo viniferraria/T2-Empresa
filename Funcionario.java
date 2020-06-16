@@ -26,7 +26,6 @@ public class Funcionario extends Pessoa {
         return String.format("%s%14.2f |%12.2f |", super.toString(),
             this.adicional,
             this.previdencia
-        ); 
-        // return String.format("%s\nprevidencia: %.2f\nadicional: %.2f", super.toString(), this.previdencia, this.adicional); 
+        );
     }
 }

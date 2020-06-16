@@ -24,6 +24,5 @@ public abstract class Pessoa {
     @Override
     public String toString() {
         return String.format("|%08d |%15s |%015d |%13.2f |", this.Id, this.nome, this.departamento, this.salario);
-        // return String.format("Id: %d\nNome: %s\ndepartamento:%d\nsalario: %.2f\npagamento: %.2f",this.Id, this.nome, this.departamento, this.salario, this.getSalario());
     }
 }

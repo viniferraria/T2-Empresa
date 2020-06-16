@@ -37,6 +37,5 @@ public class Presidente extends Pessoa {
             this.adicional_whisky, 
             this.adicional_helicoptero
         );
-        // return String.format("%s\nprevidencia: %.2f\nadicional_whisky: %.2f\nadicional_helicoptero: %.2f\nadicional_adicional: %.2f", super.toString(), this.previdencia, this.adicional_whisky, this.adicional_helicoptero, this.adicional_adicional);
     }
 }

@@ -23,6 +23,5 @@ public class Estagiario extends Pessoa {
     @Override
     public String toString() {
         return String.format("%s%14.2f |", super.toString(), this.valecoxinha); 
-        // return String.format("%s\nvalecoxinha: %.2f", super.toString(),this.valecoxinha); 
     }
 }
